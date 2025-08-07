@@ -62,7 +62,7 @@ python password_generator.py
 ```
 random-password-generator/
 │
-├── password_generator.py
+├── Random_password_gen.py
 └── README.md
 ```
 
