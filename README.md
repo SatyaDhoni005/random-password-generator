@@ -1,20 +1,19 @@
 #  Random Password Generator
 
-This is a beginner-friendly **Python-based Random Password Generator** that creates secure passwords using alphabets (both cases), numbers, and special characters — based on a user-defined length.
-
-✅ Built as part of my learning journey towards **AI Development**, this project focuses on improving logic-building and core Python skills.
+This is a **Python-based Random Password Generator** that creates secure passwords using alphabets (upper and lower case), numbers, and special characters based on a user-defined length. It follows a **50-30-20 ratio** for character distribution.
 
 ---
 
 ##  Features
 
-- User-defined password length (**minimum 8 characters**)
-- Character distribution:
-  - 50% Alphabets (randomly mixed case)
-  - 30% Numbers
-  - 20% Special Characters
-- Characters are shuffled for randomness
-- Easy-to-read and well-commented code
+- Minimum password length of **8 characters**
+- Uses:
+  - **50% Alphabets**
+  - **30% Numbers**
+  - **20% Special Characters**
+- Converts some alphabets to **uppercase randomly**
+- Shuffles characters for randomness
+- Easy-to-understand code with comments
 
 ---
 
@@ -26,15 +25,13 @@ This is a beginner-friendly **Python-based Random Password Generator** that crea
 
 ---
 
-##  How to Run
+##  Formula Used
 
-1. Make sure Python is installed.
-2. Save the file as `password_generator.py`.
-3. Run it using the terminal:
+For a given password length:
 
-```bash
-python password_generator.py
-```
+- **Alphabets:** `50%` → `length // 2`
+- **Numbers:** `30%` → `ceil(length * 0.3)`
+- **Special Characters:** Remaining after alphabets and numbers
 
 ---
 
@@ -42,7 +39,31 @@ python password_generator.py
 
 ```bash
 Enter Password Length: 12
-Generated Password: hG@9d7P&c5e!
+Generated Password: g8T@t5hD9&e!
+```
+
+---
+
+##  How to Run
+
+1. Make sure Python is installed on your system.
+2. Save the file as `password_generator.py`.
+3. Open terminal or command prompt.
+4. Run the script:
+
+```bash
+python password_generator.py
+```
+
+---
+
+##  File Structure
+
+```
+random-password-generator/
+│
+├── password_generator.py
+└── README.md
 ```
 
 ---
@@ -51,13 +72,11 @@ Generated Password: hG@9d7P&c5e!
 
 - Practice **Python fundamentals**
 - Learn to work with **strings, lists, loops, and randomness**
-- First step toward building real-world AI tools
 
 ---
 
 ##  License
 
-Open-source and free to use for learning and personal projects.
+This project is open-source and free to use.
 
 ---
-
