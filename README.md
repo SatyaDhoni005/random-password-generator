@@ -1,4 +1,4 @@
-# 🔐 Random Password Generator
+#  Random Password Generator
 
 This is a beginner-friendly **Python-based Random Password Generator** that creates secure passwords using alphabets (both cases), numbers, and special characters — based on a user-defined length.
 
@@ -6,7 +6,7 @@ This is a beginner-friendly **Python-based Random Password Generator** that crea
 
 ---
 
-## 💡 Features
+##  Features
 
 - User-defined password length (**minimum 8 characters**)
 - Character distribution:
@@ -18,7 +18,7 @@ This is a beginner-friendly **Python-based Random Password Generator** that crea
 
 ---
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 - Python 3
 - `random` module
@@ -26,7 +26,7 @@ This is a beginner-friendly **Python-based Random Password Generator** that crea
 
 ---
 
-## 💻 How to Run
+##  How to Run
 
 1. Make sure Python is installed.
 2. Save the file as `password_generator.py`.
@@ -38,7 +38,7 @@ python password_generator.py
 
 ---
 
-## 📌 Sample Output
+##  Sample Output
 
 ```bash
 Enter Password Length: 12
@@ -47,7 +47,7 @@ Generated Password: hG@9d7P&c5e!
 
 ---
 
-## 🚀 Purpose of This Project
+##  Purpose of This Project
 
 - Practice **Python fundamentals**
 - Learn to work with **strings, lists, loops, and randomness**
@@ -55,7 +55,7 @@ Generated Password: hG@9d7P&c5e!
 
 ---
 
-## 📄 License
+##  License
 
 Open-source and free to use for learning and personal projects.
 
